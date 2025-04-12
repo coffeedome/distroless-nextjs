@@ -32,3 +32,9 @@ Expose port 3000 (default for Next.js):
 docker build -t my-next-app .
 docker run -p 3000:3000 my-next-app
 ```
+
+You can also run the example app by using the ./run.sh script
+
+```bash
+./run.sh
+```
